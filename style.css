@@ -1,0 +1,93 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Red Hat Text', sans-serif;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, hsl(235, 16%, 14%) 0%, hsl(234, 17%, 12%) 100%);
+	color: white;
+}
+.continer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(./images/bg-stars.svg);
+	position: relative;
+}
+.heder {
+	position: absolute;
+	top: 15vh;
+}
+.contDone {
+	position: absolute;
+	width: 50vw;
+	height: 20vh;
+	top: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.days,
+.hours,
+.minuets,
+.seconds {
+	margin-left: 15px;
+	background-color: hsl(236, 21%, 26%);
+	width: 100vw;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	color: hsl(345, 95%, 68%);
+	font-size: 40px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.days {
+	margin-left: 0px;
+}
+.para {
+	width: 50vw;
+	height: 5vh;
+	top: 53%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	text-transform: uppercase;
+	font-stretch: wider;
+	color: hsl(237, 18%, 59%);
+	letter-spacing: 4px;
+}
+.spn {
+	margin-left: 20px;
+}
+.h {
+	margin-left: 50px;
+}
+.d {
+	margin-left: 40px;
+}
+.foter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100vw;
+	height: 30vh;
+	background-image: url(./images/pattern-hills.svg);
+	top: 70vh;
+}
+.foter img {
+	padding-left: 30px;
+}
+.foter img:hover {
+	filter: opacity(0.5);
+	cursor: pointer;
+}
